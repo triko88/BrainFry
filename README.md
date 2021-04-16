@@ -28,3 +28,20 @@ like file streams or string streams if you don't want to use console streams (st
 
 To reset the interpreter, use `reset()` function to remove all states and clean the stack too.
 Just like other modern C++ programs, you can compile it using `g++` or `clang++`. 
+
+## Running the example
+In this repository, I have included a simple "Hello, World!" program (which is difficult in this language). 
+With Clang, compile using
+```
+clang++ main.cpp -o brainfry
+```
+
+With GCC, compile using
+```
+g++ main.cpp -o brainfry
+```
+
+And use the program using
+```
+cat hello-world.bf | ./brainfry
+```
